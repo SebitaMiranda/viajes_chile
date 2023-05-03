@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+.menunavbar {
+position: absolute;
+width: 100%;
+z-index: 999;
+background: none;
+
+}
+
+.navbar-nav a {
+    color: white;
+
+} 
+
+.quienessomos {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+.quienessomos h2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px;
+
+}
+
+.quienessomos hr {
+    color: white;
+}
+
+.quienessomos .row {
+    text-align: center;
+    display: inline-flex;
+
+}
+
+.quienessomos li {
+    color: white;
+    background-color: aqua;
+    border: 0;
+    font-size: xx-small;
+
+}
+
+.quienessomos .card-footer {
+    color: white;
+    background-color: black;
+    text-align: left;
+    border: 0;
+
+    
+
+}
+
+.quienessomos .card {
+    border: 0;
+
+}
+
+.destacados h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+
+}
+
+.destacados {
+    text-align: center;
+    background-color: black;
+}
+
+.destacados .row {
+    text-align: center;
+    display: inline-flex;
+
+}
+
+.destacados p {
+    color: white;
+
+}
+
+.destacados .card {
+    background-color: aqua;
+    border: 1;
+    border-color: darkgray;
+
+}
+
+
+
