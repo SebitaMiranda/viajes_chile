@@ -102,5 +102,21 @@ background: none;
 
 }
 
+.contacto {
+    background-color: black;
+    color: white;
 
+}
+
+.contacto h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.contacto .btn {
+    background-color: aqua;
+
+}
 
