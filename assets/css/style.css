@@ -120,3 +120,29 @@ background: none;
 
 }
 
+footer {
+    background-color: aqua;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+footer h3 {
+    text-align: center;
+    color: white;
+}
+
+footer .row {
+    text-align: center;
+    
+   }
+
+footer span {
+text-align: center;
+
+}
+
+footer i {
+    color: white;
+    margin: 5px;
+}
