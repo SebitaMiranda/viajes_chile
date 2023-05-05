@@ -11,11 +11,23 @@ body * {
 }
 
 
+
+
+.container a {
+    color: white;
+   
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 .menunavbar {
-position: absolute;
+position: fixed;
 width: 100%;
 z-index: 999;
 background: none;
+
 
 }
 
@@ -24,31 +36,34 @@ background: none;
 
 } 
 
-.quienessomos {
+#quienessomos {
     background-color: black;
     color: white;
     text-align: center;
 }
 
 
-.quienessomos h2 {
+#quienessomos h2 {
     padding-top: 40px;
     padding-bottom: 40px;
     border-bottom: 2px;
 
 }
 
-.quienessomos hr {
+#quienessomos hr {
     color: white;
 }
 
-.quienessomos .row {
+#quienessomos .row {
     text-align: center;
     display: inline-flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
-.quienessomos li {
+#quienessomos li {
     color: white;
     background-color: aqua;
     border: 0;
@@ -56,7 +71,7 @@ background: none;
 
 }
 
-.quienessomos .card-footer {
+#quienessomos .card-footer {
     color: white;
     background-color: black;
     text-align: left;
@@ -66,12 +81,12 @@ background: none;
 
 }
 
-.quienessomos .card {
+#quienessomos .card {
     border: 0;
 
 }
 
-.destacados h2 {
+#destacados h2 {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -79,43 +94,45 @@ background: none;
 
 }
 
-.destacados {
+#destacados {
     text-align: center;
     background-color: black;
 }
 
-.destacados .row {
+#destacados .row {
     text-align: center;
     display: inline-flex;
+    
+    
 
 }
 
-.destacados p {
+#destacados p {
     color: white;
 
 }
 
-.destacados .card {
+#destacados .card {
     background-color: aqua;
     border: 1;
     border-color: darkgray;
 
 }
 
-.contacto {
+#contacto {
     background-color: black;
     color: white;
 
 }
 
-.contacto h2 {
+#contacto h2 {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
 
 }
 
-.contacto .btn {
+#contacto .btn {
     background-color: aqua;
 
 }
@@ -134,6 +151,7 @@ footer h3 {
 
 footer .row {
     text-align: center;
+    justify-content: center;
     
    }
 
@@ -145,4 +163,8 @@ text-align: center;
 footer i {
     color: white;
     margin: 5px;
+}
+
+footer .container {
+    justify-content: center;
 }
